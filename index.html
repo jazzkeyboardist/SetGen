@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <title>Flex Box</title>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE-edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>   
+
+<body>
+
+	<div class="container justify-content-center border border-dark">
+      	<div>
+			<h1 class="center">&nbsp&nbspSet Generator&nbsp&nbsp;
+				<img class="border-dark" src="img/X-Parte Logo.jpg" height="40">
+			</h1>
+		</div>
+
+
+      <div class="d-flex align-items-center justify-content-center"style="height: 50px;">
+         <button class="button-group p-2 m-2 bg-teal text-white shadow rounded-2" id="userDiv" type="button" onclick="userMode()">User</button>
+         <button class="button-group p-2 m-2 bg-teal text-white shadow rounded-2" id="adminDiv" type="button" onclick="adminMode()">Admin</button>
+     </div>       
+ 
+
+	<div class="row ms-auto" id="userDiv">
+		<!-- Select gig date -->
+		<form>
+			<label for="gigdate">Gig date:</label>
+			<input type="date" id="gig-date" class="non-btn-field" name="gig-date" min="2023-01-01" max="2040-12-31" required />
+		
+
+		<!-- Choose which set to display -->
+		<label for="set-button" class="" id="set-label">Set:</label>
+		<select class="non-btn-field" name="set-button" id="set-button">
+			<option value="Select"></option>
+			<option value="set1">1</option>
+			<option value="set2">2</option>
+			<option value="set3">3</option>
+			<option value="set4">4</option>
+			<option value="extra">Extra</option>
+		</select>
+	</form>
+	</div>
+
+	<!-- Print Set to Screen -->
+		<div class="row m-2">
+			<div class="">
+				<div class="table-hdr col-6">Title</div>
+				<div class="table-hdr">Key</div>
+				<div class="table-hdr">Fantom</div>
+				<div class="table-hdr">DI</div>
+			</div>
+		</div>
+
+		<h6>
+			<hr>
+		</h6>
+
+		<div class="table-responsive">
+			<!-- <table class="table table-dark table-bordered">
+				<thead>
+					<tr>
+						<th scope="col">#</th>
+						<th scope="col">Title</th>
+						<th scope="col">Key</th>
+						<th scope="col">Fantom</th>
+						<th scope="col">Juno Di</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">1</th>
+						<td>Low Down</td>
+						<td>Em</td>
+						<td>057</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">2</th>
+						<td>Smooth Operator</td>
+						<td>Dm</td>
+						<td>038</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">3</th>
+						<td>Aint Too Proud To Beg</td>
+						<td>C</td>
+						<td>019</td>
+						<td>6-037</td>
+					</tr>
+					<tr>
+						<th scope="row">4</th>
+						<td>Chain Of Fools</td>
+						<td>Bb</td>
+						<td>018</td>
+						<td>6-039</td>
+					</tr>
+					<tr>
+						<th scope="row">5</th>
+						<td>But Its Alright</td>
+						<td>G</td>
+						<td>009</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">6</th>
+						<td>Game Of Love</td>
+						<td>
+							<D>
+						</td>
+						<td>016</td>
+						<td>6-029</td>
+					</tr>
+					<tr>
+						<th scope="row">7</th>
+						<td>Grapevine</td>
+						<td>Cm</td>
+						<td>055</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">8</th>
+						<td>Ooh Baby Baby</td>
+						<td>G</td>
+						<td>043</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">9</th>
+						<td>Just Got Paid</td>
+						<td>B</td>
+						<td>060</td>
+						<td>6-616</td>
+					</tr>
+					<tr>
+						<th scope="row">10</th>
+						<td>I Will Survive</td>
+						<td>Am</td>
+						<td>069</td>
+						<td>6-088</td>
+					</tr>
+					<tr>
+						<th scope="row">11</th>
+						<td>That's The Way I Like It</td>
+						<td>Cm</td>
+						<td>027</td>
+						<td></td>
+					</tr>
+					<tr>
+						<th scope="row">12</th>
+						<td>Shake Your Booty</td>
+						<td>C</td>
+						<td>028</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table> -->
+
+		</div>
+	</div>

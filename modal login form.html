@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="modal login form.css" />
+
+<body>
+
+   <form action="action_page.php" method="post">
+     
+
+     <div class="imgcontainer">
+       <img src="X-Parte Logo.jpg" alt="Avatar" class="avatar">
+     </div>
+   
+     <div class="container">
+       <label for="uname"><b>Username</b></label>
+       <input type="text" placeholder="Enter Username" name="uname" required>
+   
+       <label for="psw"><b>Password</b></label>
+       <input type="password" placeholder="Enter Password" name="psw" required>
+   
+       <button type="submit">Login</button>
+       <label>
+         <input type="checkbox" checked="checked" name="remember"> Remember me
+       </label>
+     </div>
+   
+     <div class="container" style="background-color:#f1f1f1">
+       <button type="button" class="cancelbtn">Cancel</button>
+       <span class="psw">Forgot <a href="#">password?</a></span>
+     </div>
+   </form>
+   
+   <?php
+
+   fopen(
+       string $filename,
+       string $mode,
+       bool $use_include_path = false,
+       ?resource $context = null
+   ): resource|false
+   
+   $file_contents = file_get_contents('./file.txt');
+   ?>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+	"1": {
+		"title": "Kiss",
+		"key": "Am",
+		"fantom": "015",
+		"di": null
+	},
+	"2": {
+		"title": "Sweet Child o' Mine",
+		"key": "G",
+		"fantom": "058",
+		"di": "4-444"
+	},
+	"3": {
+		"title": "Ain't No Sunshine",
+		"key": "Dm",
+		"fantom": "017",
+		"di": "6-999"
+	},
+	"4": {
+		"title": "At Last",
+		"key": "C",
+		"fantom": "018",
+		"di": "6-039"
+	}
+}

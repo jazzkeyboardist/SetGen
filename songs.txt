@@ -1,0 +1,26 @@
+{
+	"1": {
+		"title": "Ill Be Around",
+		"key": "E",
+		"fantom": "015",
+		"di": null
+	},
+	"2": {
+		"title": "Smooth Operator",
+		"key": "D",
+		"fantom": "058",
+		"di": null
+	},
+	"3": {
+		"title": "Georgy Porgy",
+		"key": "em",
+		"fantom": "017",
+		"di": null
+	},
+	"4": {
+		"title": "Chain Of Fools",
+		"key": "Bb",
+		"fantom": "018",
+		"di": "6-039"
+	}
+}

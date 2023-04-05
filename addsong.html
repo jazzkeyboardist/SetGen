@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+   <title>Add & Delete Songs</title>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE-edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="js/songStore.js"></script>
+   <script src="js/addSong.js"></script>
+
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" href="css/addSong.css">
+</head>
+
+<body>
+   <h1 class="w3-center">SetGen</h1>
+   <h3 class="w3-center">Add Songs</h3>
+   <div class="container">
+      <form class="w3-container w3-margin w3-padding">
+         <input type="text" id="songTitle" class="w3-display-middleleft w3-teal w3-text-white" size="20" placeholder="Song name">
+
+         <br><br>
+
+         <select id="songKey" class="w3-display-middleleft w3-teal w3-text-white">
+            <option>Song Key</option>
+            <option>A</option>
+            <option>Am</option>
+            <option>B</option>
+            <option>Bm</option>
+            <option>C</option>
+            <option>Cm</option>
+            <option>C#/Db</option>
+            <option>C#m/Dbm</option>
+            <option>D</option>
+            <option>Dm</option>
+            <option>Eb</option>
+            <option>Ebm</option>
+            <option>E</option>
+            <option>Em</option>
+            <option>F</option>
+            <option>Fm</option>
+            <option>F#/Gb</option>
+            <option>F#m/Gbm</option>
+            <option>G</option>
+            <option>Gm</option>
+            <option>G#/Ab</option>
+            <option>G#m/Abm</option>
+         </select>
+
+         <br><br>
+
+         <input type="text" id="fantom" class="w3-display-middleleft w3-teal w3-text-white" size="20" placeholder="Fantom Sequence/Live Set #">
+
+         <br><br>
+
+         <input type="text" id="Di" class="w3-display-middleleft w3-teal w3-text-white" size="20" placeholder="Juno Di patch #">
+
+         <input type="button" id="addButton" class="w3-display-middleright w3-teal" value="Add Song">
+
+         <input type="submit" class="w3-display-bottommiddle w3-teal" value="Save">
+      </form>
+   </div>
+  <ul id="playlist"></ul>
+</body>
+</html>
